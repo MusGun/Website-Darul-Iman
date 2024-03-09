@@ -177,3 +177,6 @@ function showTime() {
   return i;
   }
   setInterval(showTime, 500);
+
+  var typedElement='.typed',typedTarget=$(typedElement);if(typedTarget.length){var typed=new typed(typedElement,{strings:['Daman-DI: 4B "Beribadah".','Daman-DI: 4B "Belajar".','Daman-DI: 4B "Berlatih".','Daman-DI: 4B "Berperestasi".'],typeSpeed:50,backSpeed:10,loop:true});} var typedElementSecond='.typed-second',typedTargetSecond=$(typedElementSecond);if(typedTargetSecond.length){var typed=new typed(typedElementSecond,{strings:['Responsive.','Retina Ready.','Bootstrap 5 Supported.'],typeSpeed:50,backSpeed:10,loop:true});}
+  
